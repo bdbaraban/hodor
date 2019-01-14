@@ -27,7 +27,8 @@ vote = {
 }
 
 if __name__ == "__main__":
-    for i in range(0, 1024):
+    count = 0
+    while count < 1024:
         session = requests.session()
         page = session.get(php, headers=header)
         soup = BeautifulSoup(page.text, "html.parser")
@@ -45,4 +46,6 @@ if __name__ == "__main__":
         os.remove("captcha.png")
         vote["captcha"] = captcha_php
 
-        session.post(php, headers=header, data=vote)
+        r = session.post(php, headers=header, data=vote)
+        if str(r.content) != "b'See you later hacker! [11]'":
+            count += 1
