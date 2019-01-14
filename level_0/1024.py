@@ -5,5 +5,11 @@
 import requests
 
 php = "http://158.69.76.135/level0.php"
-for i in range(0, 1024):
-    requests.post(php, data={'id': '375', 'holdthedoor': 'holdthedoor'})
+vote = {
+    "id": "375",
+    "holdthedoor": "Submit"
+}
+
+if __name__ == "__main__":
+    for i in range(0, 1024):
+        requests.post(php, data=vote)
