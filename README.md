@@ -23,7 +23,7 @@ of votes. The levels and their corresponding scripts are listed below:
   * `level_3/1024.py`: Votes with my Holberton ID 1024 times 
 [here](http://158.69.76.135/level3.php).
 * **Level 4**
-  * `level_4/1024.py`: Votes with my Holberton ID 98 times 
+  * `level_4/98.py`: Votes with my Holberton ID 98 times 
 [here](http://158.69.76.135/level4.php).
 
 ## Author
