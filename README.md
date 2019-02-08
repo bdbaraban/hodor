@@ -4,23 +4,30 @@
 This repoistory contains Python scripts written for a web scraping challenge 
 project completed as part of the Year 1 curriculum at Holberton School. In this 
 project, I used Python's `requests`, `BeautifulSoup`, and `pytesseract` packages 
-to simulate votes for a series of increasingly complicated `.php` voting contest 
+to simulate votes for a series of increasingly complicated voting contest 
 websites.
 
 For each level, I was challenged with writing a script to submit a certain number 
 of votes. The levels and their corresponding scripts are listed below:
 
 * **Level 0**
-  * `level_0/1024.py`: Votes with my Holberton ID 1024 times [here](http://158.69.76.135/level0.php).
+  * `level_0/1024.py`: Votes with my Holberton ID 1024 times 
+[here](http://158.69.76.135/level0.php).
 * **Level 1**
-  * `level_1/4096.py`: Votes with my Holberton ID 4096 times [here](http://158.69.76.135/level0.php).
+  * `level_1/4096.py`: Votes with my Holberton ID 4096 times 
+[here](http://158.69.76.135/level0.php).
 * **Level 2**
-  * `level_2/1024.py`: Votes with my Holberton ID 1024 times [here](http://158.69.76.135/level2.php).
+  * `level_2/1024.py`: Votes with my Holberton ID 1024 times 
+[here](http://158.69.76.135/level2.php).
 * **Level 3**
-  * `level_3/1024.py`: Votes with my Holberton ID 1024 times [here](http://158.69.76.135/level3.php).
+  * `level_3/1024.py`: Votes with my Holberton ID 1024 times 
+[here](http://158.69.76.135/level3.php).
+* **Level 4**
+  * `level_4/1024.py`: Votes with my Holberton ID 98 times 
+[here](http://158.69.76.135/level4.php).
 
 ## Author
-* **Brennan D Baraban** <[bdbaraban](https://github.com/bdbaraban)> - 
+* __Brennan D Baraban__ <[bdbaraban](https://github.com/bdbaraban)> - 
 Holberton School Student
 
 ## Acknowledgements
